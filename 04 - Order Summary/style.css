@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+@media only screen and (max-width: 380px) {
+    body {
+        background-image: url('images/pattern-background-mobile.svg') !important;
+    }
+    .card-content {
+        padding: 1.4rem !important;
+    }
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background: hsl(225, 100%, 94%) url('images/pattern-background-desktop.svg') repeat-x;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 300px;
+    min-width: 260px;
+    height: max-content;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin: 1rem;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card-content {
+    padding: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card-content h2,
+.change-plan strong {
+    margin: 0;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.card-content p {
+    font-size: 14px;
+    line-height: 1.5em;
+    color: hsl(224, 23%, 55%);
+}
+
+.change-plan {
+    height: auto;
+    text-align: left;
+    background-color: hsla(225, 100%, 94%, 0.25);
+    border-radius: 10px;
+    padding: 0 1rem;
+}
+
+.change-plan img {
+    width: 32px;
+    margin-right: 1rem;
+}
+
+.change-plan a {
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.change-plan a:hover {
+    text-decoration: none;
+    color: hsl(245, 83%, 69%);
+}
+
+.card-content a.btn-proceed {
+    background-color: hsl(245, 75%, 52%);
+    padding: 10px 0;
+    color: hsl(225, 100%, 98%);
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: .8em;
+    box-shadow: 0 15px 10px hsl(225, 100%, 94%);
+    margin: 1.5rem 0 1rem;
+}
+
+a.btn-proceed:hover {
+    background-color: hsl(245, 83%, 69%);
+}
+
+.cancel {
+    color: hsl(224, 23%, 55%);
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
