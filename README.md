@@ -15,6 +15,6 @@ Repository with resolutions of Frontend Mentor challenges.
 <tr>
   <td>01 - Interactive rating component</td>
   <td>html, css, javascript</td>
-  <td><a href="https://krossbr.github.io/frontend-mentor/01%20-%20Rating/index.html">Demo</a></td>
+  <td><a href="https://krossbr.github.io/frontend-mentor/01%20-%20Rating/index.html" target="_blank">Demo</a></td>
 </tr>
 </table>
