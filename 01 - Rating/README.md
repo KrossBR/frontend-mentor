@@ -1,3 +1,7 @@
+<div>
+  <img src="https://github.com/KrossBR/frontend-mentor/blob/master/01%20-%20Rating/images/preview.jpg">
+</div>
+
 Brief
 Your challenge is to build out this interactive rating component and get it looking as close to the design as possible.
 
