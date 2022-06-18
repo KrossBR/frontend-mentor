@@ -20,6 +20,6 @@ Repository with resolutions of Frontend Mentor challenges.
 <tr>
   <td>02 - QR code component</td>
   <td>html, css</td>
-  <td><a href="https://github.com/KrossBR/frontend-mentor/blob/master/02%20-%20QR%20Code/index.html" target="_blank">Demo</a></td>
+  <td><a href="https://krossbr.github.io/frontend-mentor/02%20-%20QR%20Code/index.html" target="_blank">Demo</a></td>
 </tr>
 </table>
