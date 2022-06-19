@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend&display=swap');
 
+:root {
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    /* (paragraphs) */
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);
+    /* (background, headings, buttons) */
+    --Very-light-gray: hsl(0, 0%, 95%);
+}
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -9,12 +19,16 @@
     .cards {
         grid-template-columns: 1fr 1fr 1fr !important;
     }
+
+    .button {
+        margin-top: 5.2rem !important;
+    }
 }
 
 body {
-    background-color: hsl(0, 0%, 95%);
+    background-color: var(--Very-light-gray);
     font: 1em/1.25em 'Lexend', sans-serif;
-    color: hsla(0, 0%, 100%, 0.75);
+    color: var(--Transparent-white);
 }
 
 .container {
@@ -36,38 +50,44 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding: 3.05rem;
 }
 
-.card h2 {
-    color: hsl(0, 0%, 95%);
+.card h1 {
+    color: var(--Very-light-gray);
     font-family: 'Big Shoulders Display', cursive;
     text-transform: uppercase;
-    margin: 2rem 0;
+    margin: 3rem 0 2.6rem;
+    font-size: 2.4em;
+}
+
+.card p {
+    font-size: .93em;
+    line-height: 1.65em;
 }
 
 .orange {
-    background-color: hsl(31, 77%, 52%);
+    background-color: var(--Bright-orange);
 }
 
 .green {
-    background-color: hsl(184, 100%, 22%);
+    background-color: var(--Dark-cyan);
 }
 
 .dark-green {
-    background-color: hsl(179, 100%, 13%);
+    background-color: var(--Very-dark-cyan);
 }
 
 .text-orange {
-    color: hsl(31, 77%, 52%);
+    color: var(--Bright-orange);
 }
 
 .text-green {
-    color: hsl(184, 100%, 22%);
+    color: var(--Dark-cyan);
 }
 
 .text-dark-green {
-    color: hsl(179, 100%, 13%);
+    color: var(--Very-dark-cyan);
 }
 
 .card img {
@@ -75,18 +95,18 @@ body {
 }
 
 .button {
-    margin-top: 4rem;
-    width: 140px;
+    margin-top: 2rem;
+    width: 145px;
     display: inline-block;
     text-decoration: none;
     border-radius: 45px;
     text-align: center;
-    padding: 10px 0;
-    background-color: hsl(0, 0%, 95%);
+    padding: 14px 0;
+    background-color: var(--Very-light-gray);
 }
 
 .button:hover {
-    outline: 1px solid hsl(0, 0%, 95%);
-    color: hsl(0, 0%, 95%);
+    outline: 1px solid var(--Very-light-gray);
+    color: var(--Very-light-gray);
     background-color: transparent;
 }
