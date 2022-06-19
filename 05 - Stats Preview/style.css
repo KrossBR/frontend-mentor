@@ -1,7 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 
-/* Small devices (landscape phones, 576px and up) */
+:root {
+    /* (main background) */
+    --Very-dark-blue: hsl(233, 47%, 7%);
+    /* (card background) */
+    --Dark-desaturated-blue: hsl(244, 38%, 16%);
+    /* (accent) */
+    --Soft-violet: hsl(277, 64%, 61%);
+    /* (main heading, stats) */
+    --White: hsl(0, 0%, 100%);
+    /* (main paragraph) */
+    --Slightly-white: hsla(0, 0%, 100%, 0.75);
+    /* (stat headings) */
+    --Slightly-transparent-white: hsla(0, 0%, 100%, 0.6);
+}
+
 @media only screen and (min-width: 576px) {
     .card {
         display: grid !important;
@@ -18,7 +32,6 @@
     }
 }
 
-/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .card-content {
         margin: 3rem !important;
@@ -29,20 +42,21 @@
     }
 }
 
-/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .card-content {
-        margin: 5rem !important;
+        margin: 5rem 4.5rem !important;
         margin-right: 7rem !important;
     }
 
-    .card-content h2 {
+    .card-content h1 {
         font-size: 2em;
+        line-height: 1.4em;
+    }
+
+    .card-content p {
+        margin-bottom: -1rem !important;
     }
 }
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
 
 * {
     margin: 0;
@@ -51,7 +65,7 @@
 }
 
 body {
-    background-color: hsl(233, 47%, 7%);
+    background-color: var(--Very-dark-blue);
 }
 
 .container {
@@ -62,8 +76,8 @@ body {
 }
 
 .card {
-    width: 1120px;
-    background-color: hsl(244, 38%, 16%);
+    width: 1110px;
+    background-color: var(--Dark-desaturated-blue);
     border-radius: 10px;
     overflow: hidden;
     display: flex;
@@ -71,7 +85,7 @@ body {
     margin: 1rem;
 }
 
-.card .card-content {
+.card-content {
     margin: 2rem;
     display: flex;
     flex-direction: column;
@@ -79,20 +93,21 @@ body {
     text-align: center;
 }
 
-.card-content h2,
+.card-content h1,
 strong {
     font-family: 'Inter', sans-serif;
-    color: hsl(0, 0%, 100%);
+    color: var(--White);
     margin-bottom: 1.15rem;
+    font-size: 2em;
 }
 
 .card-content h2>span {
-    color: hsl(277, 64%, 61%);
+    color: var(--Soft-violet);
 }
 
 .card-content>div p {
     font: 15px/25px 'Lexend Deca', sans-serif;
-    color: hsla(0, 0%, 100%, 0.75);
+    color: var(--Slightly-white);
     margin-bottom: 1rem;
 }
 
@@ -108,7 +123,7 @@ strong {
 
 .card-content .numbers p {
     text-transform: uppercase;
-    color: hsla(0, 0%, 100%, 0.6);
+    color: var(--Slightly-transparent-white);
     font-size: 12px;
 }
 
@@ -128,9 +143,9 @@ strong {
 
 .mask {
     position: absolute;
-    background-color: hsl(277, 100%, 25%);
+    background-color: var(--Soft-violet);
     top: 0;
     height: 100%;
     width: 100%;
-    opacity: .5;
+    opacity: .4;
 }
