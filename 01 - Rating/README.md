@@ -1,18 +1,48 @@
-<div>
-  <img src="https://github.com/KrossBR/frontend-mentor/blob/master/01%20-%20Rating/images/preview.jpg">
-</div>
+# Frontend Mentor - Interactive rating component solution
 
-Brief
-Your challenge is to build out this interactive rating component and get it looking as close to the design as possible.
+This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+## Table of contents
 
-Your users should be able to:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
 
-Select and submit a number rating
-See the "Thank you" card state after submitting a rating
-View the optimal layout for the app depending on their device's screen size
-See hover states for all interactive elements on the page
-Download the project and go through the README.md file. This will provide further details about the project and help you get set up.
+## Overview
 
-Want some support on the challenge? Join our Slack community and ask questions in the help channel.
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Select and submit a number rating
+- See the "Thank you" card state after submitting a rating
+
+### Screenshot
+
+![](./images/preview.jpg)
+
+### Links
+
+- Solution URL: [Link](https://github.com/KrossBR/frontend-mentor/tree/master/01%20-%20Rating)
+- Live Site URL: [Link](https://krossbr.github.io/frontend-mentor/01%20-%20Rating/index.html)
+
+## My process
+
+### Built with
+
+- HTML
+- CSS
+- Flexbox
+- Javascript
+- Mobile-first workflow
+
+## Author
+
+<!-- - Website - [Add your name here](https://www.your-site.com) -->
+- Frontend Mentor - [@KrossBR](https://www.frontendmentor.io/profile/KrossBR)
