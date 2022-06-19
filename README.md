@@ -22,4 +22,9 @@ Repository with resolutions of Frontend Mentor challenges.
   <td>html, css</td>
   <td><a href="https://krossbr.github.io/frontend-mentor/02%20-%20QR%20Code/index.html" target="_blank">Demo</a></td>
 </tr>
+<tr>
+  <td>03 - NFT preview card component</td>
+  <td>html, css</td>
+  <td><a href="https://krossbr.github.io/frontend-mentor/03%20-%20NFT/index.html" target="_blank">Demo</a></td>
+</tr>
 </table>
