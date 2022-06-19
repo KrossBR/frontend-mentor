@@ -27,4 +27,19 @@ Repository with resolutions of Frontend Mentor challenges.
   <td>html, css</td>
   <td><a href="https://krossbr.github.io/frontend-mentor/03%20-%20NFT/index.html" target="_blank">Demo</a></td>
 </tr>
+<tr>
+  <td>04 - Order summary card</td>
+  <td>html, css</td>
+  <td><a href="https://krossbr.github.io/frontend-mentor/04%20-%20Order%20Summary/index.html" target="_blank">Demo</a></td>
+</tr>
+<tr>
+  <td>05 - Stats preview card component</td>
+  <td>html, css</td>
+  <td><a href="https://krossbr.github.io/frontend-mentor/05%20-%20Stats%20Preview/index.html" target="_blank">Demo</a></td>
+</tr>
+<tr>
+  <td>06 - 3 columns preview card component</td>
+  <td>html, css</td>
+  <td><a href="https://krossbr.github.io/frontend-mentor/06%20-%203%20columns%20preview/index.html" target="_blank">Demo</a></td>
+</tr>
 </table>
