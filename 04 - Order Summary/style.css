@@ -60,11 +60,12 @@ body {
     font-size: 1.75em;
 }
 
-.card-content h2,
+.card-content h1,
 .change-plan strong {
     margin: 0;
     color: var(--Dark-blue);
     font-weight: 900;
+    font-size: 1.75em;
 }
 
 .card-content p {
