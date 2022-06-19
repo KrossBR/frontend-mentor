@@ -26,7 +26,6 @@ body {
 }
 
 .card {
-    opacity: .7;
     width: 304px;
     min-width: 220px;
     height: max-content;
