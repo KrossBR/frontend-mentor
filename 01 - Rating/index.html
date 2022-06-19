@@ -14,44 +14,46 @@
 </head>
 
 <body>
-  <div class="container">
+  <main>
+    <div class="container">
 
-    <!-- Rating state start -->
-    <div class="card">
-      <img class="circle" src="./images/icon-star.svg" alt="Star">
+      <!-- Rating state start -->
+      <div class="card">
+        <img class="circle" src="./images/icon-star.svg" alt="Star">
 
-      <h2>How did we do?</h2>
+        <h1>How did we do?</h1>
 
-      <p>Please let us know how we did with your support request. All feedback is appreciated
-        to help us improve our offering!</p>
+        <p>Please let us know how we did with your support request. All feedback is appreciated
+          to help us improve our offering!</p>
 
-      <div class="rating">
-        <input class="circle select" type="button" value="1">
-        <input class="circle" type="button" value="2">
-        <input class="circle" type="button" value="3">
-        <input class="circle" type="button" value="4">
-        <input class="circle" type="button" value="5">
+        <div class="rating">
+          <input class="circle select" type="button" value="1">
+          <input class="circle" type="button" value="2">
+          <input class="circle" type="button" value="3">
+          <input class="circle" type="button" value="4">
+          <input class="circle" type="button" value="5">
+        </div>
+
+        <input class="button" type="button" value="Submit">
       </div>
+      <!-- Rating state end -->
 
-      <input class="button" type="button" value="Submit">
+      <!-- Thank you state start -->
+      <div class="card back select">
+
+        <img src="./images/illustration-thank-you.svg" alt="Star">
+
+        <p class="circle">You selected <span id="rating-value">1</span> out of 5</p>
+
+        <h2>Thank you!</h2>
+
+        <p>We appreciate you taking the time to give a rating. If you ever need more support,
+          don’t hesitate to get in touch!</p>
+      </div>
     </div>
-    <!-- Rating state end -->
-
-    <!-- Thank you state start -->
-    <div class="card back select">
-
-      <img src="./images/illustration-thank-you.svg" alt="Star">
-
-      <p class="circle">You selected <span id="rating-value">1</span> out of 5</p>
-
-      <h2>Thank you!</h2>
-
-      <p>We appreciate you taking the time to give a rating. If you ever need more support,
-        don’t hesitate to get in touch!</p>
-    </div>
-  </div>
+  </main>
   <!-- Thank you state end -->
-  
+
   <script src="script.js"></script>
 </body>
 

@@ -73,7 +73,7 @@ body {
     transform: rotateY(180deg);
 }
 
-.card h2 {
+.card h1 {
     color: var(--White);
     font-size: 1.7em;
 }
