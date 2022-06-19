@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
+:root{
+--Soft-blue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+--Cyan-Overlay: hsl(178, 100%, 50%, 0.7);
+--Main-BG: hsl(217, 54%, 11%);
+--Card-BG: hsl(216, 50%, 16%);
+--Line: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+}
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
-    background-color: hsl(217, 54%, 11%);
+    background-color: var(--Main-BG);
 }
 
 .container {
@@ -16,10 +26,11 @@ body {
 }
 
 .card {
-    width: 300px;
+    opacity: .7;
+    width: 304px;
     min-width: 220px;
     height: max-content;
-    background-color: hsl(216, 50%, 16%);
+    background-color: var(--Card-BG);
     padding: 1.25rem;
     margin: 1rem;
     border-radius: 15px;
@@ -33,23 +44,23 @@ body {
 
 .container .card a {
     text-decoration: none;
-    color: hsl(0, 0%, 100%);
+    color: var(--White);
 }
 
 .container .card a:hover {
     text-decoration: none;
-    color: hsl(178, 100%, 50%);
+    color: var(--Cyan);
 }
 
 .container .card {
     text-decoration: none;
-    color: hsl(215, 51%, 70%);
+    color: var(--Soft-blue);
 }
 
 .nft-img {
     position: relative;
     display: block;
-    border-radius: 15px;
+    border-radius: 10px;
     overflow: hidden;
 }
 
@@ -61,7 +72,7 @@ body {
 .nft-img .overlay {
     width: 100%;
     height: 100%;
-    background-color: hsla(178, 100%, 50%, 0.7);
+    background-color: var(--Cyan-Overlay);
     position: absolute;
     top: 0;
     opacity: 0;
@@ -86,7 +97,7 @@ body {
 .info {
     justify-content: space-between;
     padding-bottom: 1rem;
-    border-bottom: 1px solid hsl(215, 32%, 27%);
+    border-bottom: 1px solid var(--Line);
 }
 
 .info .price img,
@@ -96,7 +107,7 @@ body {
 
 .price span{
     font-weight: bold;
-    color: hsl(178, 100%, 50%);;
+    color: var(--Cyan);
 }
 
 .author {
@@ -107,6 +118,6 @@ body {
 .author img {
     width: 32px;
     margin-right: 1rem;
-    border: 1px solid hsl(0, 0%, 100%);
+    border: 1px solid var(--White);
     border-radius: 100%;
 }
