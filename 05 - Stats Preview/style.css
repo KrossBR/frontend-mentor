@@ -101,7 +101,7 @@ strong {
     font-size: 2em;
 }
 
-.card-content h2>span {
+.card-content h1>span {
     color: var(--Soft-violet);
 }
 
