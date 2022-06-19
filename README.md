@@ -42,4 +42,9 @@ Repository with resolutions of Frontend Mentor challenges.
   <td>html, css</td>
   <td><a href="https://krossbr.github.io/frontend-mentor/06%20-%203%20columns%20preview/index.html" target="_blank">Demo</a></td>
 </tr>
+<tr>
+  <td>07 - Profile card component</td>
+  <td>html, css</td>
+  <td><a href="https://krossbr.github.io/frontend-mentor/07%20-%20Profile%20Card/index.html" target="_blank">Demo</a></td>
+</tr>
 </table>
