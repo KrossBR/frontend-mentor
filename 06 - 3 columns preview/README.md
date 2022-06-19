@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Link](https://github.com/KrossBR/frontend-mentor/tree/master/06%20-%203%20columns%20preview)
-- Live Site URL: [Add live site URL here](https://krossbr.github.io/frontend-mentor/06%20-%203%20columns%20preview/index.html)
+- Live Site URL: [Link](https://krossbr.github.io/frontend-mentor/06%20-%203%20columns%20preview/index.html)
 
 ## My process
 
