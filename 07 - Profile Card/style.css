@@ -5,6 +5,7 @@
     --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
     --Dark-grayish-blue: hsl(227, 10%, 46%);
     --Dark-gray: hsl(0, 0%, 59%);
+    --Soft-gray: hsl(0, 0%, 59%, 0.2);
 }
 
 * {
@@ -71,7 +72,7 @@ strong {
 }
 
 .statistic {
-    border-top: 1px solid var(--Dark-gray);
+    border-top: 1px solid var(--Soft-gray);
     padding-top: 7%;
     display: flex;
     justify-content: space-evenly;
