@@ -103,7 +103,7 @@ img {
 
 a.btn-cart {
   background-color: var(--Dark-cyan);
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   color: var(--White);
   text-align: center;
   padding: 1em;
