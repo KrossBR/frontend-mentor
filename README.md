@@ -1,4 +1,5 @@
 # frontend-mentor
+
 Repository with resolutions of Frontend Mentor challenges.
 
 <table>
@@ -46,5 +47,10 @@ Repository with resolutions of Frontend Mentor challenges.
   <td>07 - Profile card component</td>
   <td>html, css</td>
   <td><a href="https://krossbr.github.io/frontend-mentor/07%20-%20Profile%20Card/index.html" target="_blank">Demo</a></td>
+</tr>
+<tr>
+  <td>08 - FAQ Accordion Card</td>
+  <td>html, css</td>
+  <td><a href="https://krossbr.github.io/frontend-mentor/08%20-%20Faq%20accordion%20card/index.html" target="_blank">Demo</a></td>
 </tr>
 </table>
