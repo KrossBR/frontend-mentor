@@ -19,7 +19,8 @@
     box-sizing: border-box;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 920px) {
+
     .card,
     .conteudo {
         width: 57.5rem !important;
@@ -30,6 +31,7 @@
     .imgs-desktop {
         display: block !important;
         width: 50% !important;
+        position: relative;
     }
 
     .conteudo {
@@ -37,23 +39,24 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    .imgs-mobile{
+    .imgs-mobile {
         display: none;
     }
+
     .img-1 {
         position: absolute;
         width: 48rem;
         left: -23.5rem;
         top: -10rem;
     }
-    
+
     .img-2 {
         position: relative;
         width: 29rem;
         top: 60px;
         left: -33%;
     }
-    
+
     .img-3 {
         position: absolute;
         left: -5.8rem;
@@ -142,6 +145,10 @@ body {
     padding: 1.25rem 0;
     border-bottom: 1.5px solid var(--Light-grayish-blue);
     color: var(--Very-dark-grayish-blue);
+}
+
+.content details summary:hover {
+    color: var(--Soft-red);
 }
 
 .content details[open] summary {
