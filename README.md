@@ -49,8 +49,13 @@ Repository with resolutions of Frontend Mentor challenges.
   <td><a href="https://krossbr.github.io/frontend-mentor/07%20-%20Profile%20Card/index.html" target="_blank">Demo</a></td>
 </tr>
 <tr>
-  <td>08 - FAQ Accordion Card</td>
+  <td>08 - FAQ accordion card</td>
   <td>html, css</td>
   <td><a href="https://krossbr.github.io/frontend-mentor/08%20-%20Faq%20accordion%20card/index.html" target="_blank">Demo</a></td>
+</tr>
+<tr>
+  <td>09 - Product preview card component</td>
+  <td>html, css</td>
+  <td><a href="https://krossbr.github.io/frontend-mentor/09%20-%20Product%20preview%20card/index.html" target="_blank">Demo</a></td>
 </tr>
 </table>

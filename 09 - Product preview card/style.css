@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+:root {
+  --Dark-cyan: hsl(158, 36%, 37%);
+  --Very-Dark-cyan: hsl(158, 36%, 17%);
+  --Cream: hsl(30, 38%, 92%);
+  --Very-dark-blue: hsl(212, 21%, 14%);
+  --Dark-grayish-blue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+  font-size: 62.5%;
+}
+
+@media only screen and (min-width: 660px) {
+  .card {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    width: 60rem;
+  }
+  .content {
+    margin: 3.2rem !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: var(--Cream);
+  font-family: "Montserrat", sans-serif;
+  color: var(--Dark-grayish-blue);
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: var(--White);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 24.8rem;
+}
+
+.content {
+  margin: 2.4rem;
+}
+
+.content h1 {
+  margin-top: 1rem;
+  font-family: "Fraunces", serif;
+  font-size: 3em;
+  line-height: 1em;
+  color: var(--Very-dark-blue);
+}
+
+.content h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.content p {
+  font-size: 1.3em;
+  line-height: 1.6em;
+  margin-top: 2rem;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  margin-top: 3.5rem;
+}
+
+.prices .price {
+  font-family: "Fraunces", serif;
+  color: var(--Dark-cyan);
+  font-size: 3em;
+}
+
+.prices .old-price {
+  text-decoration: line-through;
+  font-size: 1.2em;
+  margin-left: 1em;
+}
+
+a.btn-cart {
+  background-color: var(--Dark-cyan);
+  border-radius: 0.5rem;
+  color: var(--White);
+  text-align: center;
+  padding: 1em;
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.4em;
+  margin-top: 1.5rem;
+}
+
+a.btn-cart::before {
+  content: url("./images/icon-cart.svg");
+  position: relative;
+  left: -0.7rem;
+  top: 0.1rem;
+}
+
+a.btn-cart:hover {
+  background-color: var(--Very-Dark-cyan);
+}
